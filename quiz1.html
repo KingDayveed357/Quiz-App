@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz1.css">
+</head>
+<body>
+    <div class="body">
+        <div class="side">
+            <!-- <br>
+            <br>
+            <br> -->
+            <!-- <h1 class="js">Js</h1>
+            <h1 class="oop">oop</h1> -->
+            <img src="./quiz2.jpg" alt="" class="image">
+        </div>
+        <main class="quizBox">
+            <center style="background-color: white;">
+                <div class="loader" style="background-color: white;" ></div>
+            </center>
+            <center style="background-color: white;">
+                <div class="scoreDiv">
+                    <h3>Your Quiz Score Of The Day</h3>
+                    <h1 id="score"></h1>
+                    <p id="remark"></p>
+                </div>
+            </center>
+            
+           <div class="inside" style="background-color: white;">
+            <div class="quiz" style="background-color: white;">
+                <h1 style="background-color: white;">Quiz</h1>
+            </div>
+            <hr>
+            <br>
+            <br>
+            <br >
+            <div class="question" style="background-color: white;">
+                <p id="questions" style="background-color: white;"></p>
+                <br style="background-color: white;">
+                <div  class="answer">
+                    <button id="ans1" class="button" onclick="playQuiz()"></button>
+                    <button id="ans2" class="button" onclick="playQuiz()"></button>
+                </div>
+                <div class="answer">
+                    <button id="ans3" class="button" onclick="playQuiz()"></button>
+                    <button id="ans4" class="button" onclick="playQuiz()"></button>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+        </div>
+        <p class="numb" id="progress" style="background-color: white;">Question 1 of 10</p>
+       
+        </main>
+        <audio id="right" src="success-fanfare-trumpets-6185.mp3"></audio>
+        <audio id="wrong" src="notification-126507 (1).mp3"></audio>
+        <audio id="endgame" src="short-success-sound-glockenspiel-treasure-video-game-6346.mp3"></audio>
+    
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
